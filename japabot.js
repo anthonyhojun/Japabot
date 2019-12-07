@@ -1,6 +1,6 @@
 // require library
 const twit = require('twit')
-const config = require('./config.js')
+// const config = require('./config.js')
 
 
 // link library and config: 1 letter
