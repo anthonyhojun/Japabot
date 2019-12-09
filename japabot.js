@@ -1,14 +1,13 @@
 // require library
 const twit = require('twit')
-// const config = require('./config.js')
+const config = require('./config.js')
 
 
 // link library and config: 1 letter
 const T = new twit(config)
 
 // paramters
-const tweeter = 
-{
+const tweeter = {
     screen_name: 'JapaCurry',
     count: 1
 }
