@@ -8,7 +8,7 @@ const T = new twit(config)
 
 // paramters
 const words = {
-    q: 'Rainbow',
+    q: 'Gen.G',
     count: 5
 }
 
@@ -16,6 +16,7 @@ const words = {
 const getData = (err, data, response) => {
     const tweet = data.statuses; 
     for(i=0; i<tweet.length; i++){
+        console.log(`No.: ${[i + 1]}`);
         console.log(`ID: ${tweet[i].id}`);
         console.log(`Date: ${tweet[i].created_at}`);
         console.log(`Tweet: ${tweet[i].text}`);
